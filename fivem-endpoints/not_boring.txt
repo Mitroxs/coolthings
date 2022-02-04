@@ -1,0 +1,12 @@
+https://changelogs-live.fivem.net/api/changelog/versions/win32/server
+https://changelogs-live.fivem.net/api/changelog/versions/linux/server
+http://servers-frontend.fivem.net:443
+https://changelogs-live.fivem.net/api/changelog/versions
+http://status.cfx.re:443
+https://servers-frontend.fivem.net/api/servers/top/en-GB/
+https://servers-frontend.fivem.net/api/servers/single/cfxcodehere
+https://runtime.fivem.net/counts.json
+https://servers-live.fivem.net/servers/icon/cfxcodehere/
+https://servers-frontend.fivem.net/api/servers/stream/
+https://runtime.fivem.net/pins.json 
+https://runtime.fivem.net/tweets.json
