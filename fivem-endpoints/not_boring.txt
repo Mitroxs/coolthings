@@ -4,9 +4,12 @@ http://servers-frontend.fivem.net:443
 https://changelogs-live.fivem.net/api/changelog/versions
 http://status.cfx.re:443
 https://servers-frontend.fivem.net/api/servers/top/en-GB/
-https://servers-frontend.fivem.net/api/servers/single/cfxcodehere
+https://servers-frontend.fivem.net/api/servers/single/:cfx_server_code
 https://runtime.fivem.net/counts.json
-https://servers-live.fivem.net/servers/icon/cfxcodehere/
+https://servers-live.fivem.net/servers/icon/:cfx_server_code
 https://servers-frontend.fivem.net/api/servers/stream/
 https://runtime.fivem.net/pins.json 
 https://runtime.fivem.net/tweets.json
+https://forum.cfx.re/session/csrf.json
+https://forum.cfx.re/session/hp.json
+https://policy-live.fivem.net/api/getUserInfo/:fivem_id
