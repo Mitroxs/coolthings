@@ -1,15 +1,59 @@
-https://changelogs-live.fivem.net/api/changelog/versions/win32/server
-https://changelogs-live.fivem.net/api/changelog/versions/linux/server
-http://servers-frontend.fivem.net:443
-https://changelogs-live.fivem.net/api/changelog/versions
-http://status.cfx.re:443
-https://servers-frontend.fivem.net/api/servers/top/en-GB/
-https://servers-frontend.fivem.net/api/servers/single/:cfx_server_code
-https://runtime.fivem.net/counts.json
-https://servers-live.fivem.net/servers/icon/:cfx_server_code
-https://servers-frontend.fivem.net/api/servers/stream/
-https://runtime.fivem.net/pins.json 
-https://runtime.fivem.net/tweets.json
-https://forum.cfx.re/session/csrf.json
-https://forum.cfx.re/session/hp.json
-https://policy-live.fivem.net/api/getUserInfo/:fivem_id
+GET https://changelogs-live.fivem.net/api/changelog/versions/win32/server
+
+GET https://changelogs-live.fivem.net/api/changelog/versions/linux/server
+
+GET http://servers-frontend.fivem.net:443
+
+GET https://changelogs-live.fivem.net/api/changelog/versions
+
+GET http://status.cfx.re:443
+
+GET https://servers-frontend.fivem.net/api/servers/top/en-GB/
+
+GET https://runtime.fivem.net/counts.json
+
+GET https://servers-frontend.fivem.net/api/servers/stream/
+
+GET https://runtime.fivem.net/pins.json 
+
+GET https://runtime.fivem.net/tweets.json
+
+GET https://forum.cfx.re/session/csrf.json
+
+GET https://forum.cfx.re/session/hp.json
+
+GET https://runtime.fivem.net/promotions_targeting.json
+
+GET https://servers-live.fivem.net/servers/icon/{0} variables: {
+    0: NUCLEUS_TOKEN
+}
+
+GET https://servers-frontend.fivem.net/api/servers/single/{0} variables: {
+    0: NUCLEUS_TOKEN
+}
+
+GET https://policy-live.fivem.net/api/getUserInfo/{0} variables: {
+    0: FIVEM_ID
+}
+
+GET https://runtime.fivem.net/policy/shdisable?server={0}_{1} variables: {
+    0: IP_ADDRESS,
+    1: PORT
+}
+
+GET https://policy-live.fivem.net/api/policy/{0} variables: {
+    0: SV_LICENSEKEYTOKEN
+}
+
+POST https://lambda.fivem.net/api/validate/discord headers: {
+    entitlementId: ENTITLEMENT_KEY,
+    userId: DISCORD_ID
+}
+
+POST https://lambda.fivem.net/api/validate/entitlement/ros2 headers: {
+    ticket: GUID_TICKET,
+    gameName: 'gta5',
+    sessionKey: SESSION_KEY,
+    sessionTicket: SESSION_TICKET,
+    rosId: FIVEM_ID
+}
